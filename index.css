@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-color: green;
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+h1 {
+    color: gold;
+    font-size: 48px;
+}
+
+#card1-el,
+#card2-el,
+#extra-cards p {
+    display: inline-flex;
+
+    width: 70px;
+    height: 100px;
+
+    background-color: white;
+    color: black;
+
+    border-radius: 10px;
+    border: 3px solid #ddd;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    margin: 8px;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#extra-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    max-width: 600px;
+    min-height: 10px;
+}
+
+#sum-el {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#result-el {
+    font-size: 22px;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+button {
+    width: 220px;
+    padding: 15px;
+    margin: 8px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: gold;
+    color: green;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#next-el {
+    display: none;
+}

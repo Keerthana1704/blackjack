@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BlackJack!</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <h1>BlackJack!</h1>
+
+    <!-- First two cards -->
+    <div id="starting-cards">
+        <p id="card1-el"></p>
+        <p id="card2-el"></p>
+    </div>
+
+    <!-- Extra cards will be added here -->
+    <div id="extra-cards"></div>
+
+    <!-- Sum -->
+    <p id="sum-el"></p>
+
+    <!-- Result message -->
+    <p id="result-el"></p>
+
+    <!-- Start / Restart button -->
+    <button id="start-el" onclick="startgame()">START GAME</button>
+
+    <!-- New Card button -->
+    <button id="next-el" onclick="newcard()">NEW CARD</button>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
